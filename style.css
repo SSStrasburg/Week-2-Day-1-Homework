@@ -1,0 +1,138 @@
+body {
+
+    /* DO NOT CHANGE THESE */
+    font-family: Verdana, Arial, sans-serif;
+}
+
+footer {
+
+    /* DO NOT CHANGE THESE */
+    background-color: #444444;
+    color: #eeeeee;
+  }
+
+header{
+width: 100%;
+border-radius: 1em 1em 0 0;
+}
+
+.hero {
+    /* DO NOT CHANGE THESE */
+    background-color: #444444;
+  }
+
+.hero h1 {
+      /* DO NOT CHANGE THESE */
+      color: #ffffff;
+      width: 30%;
+      font-size: 1em;
+      padding: 3em;
+    }
+
+header ul{
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  flex: 0 0 10%;
+  margin-bottom: 0;
+
+
+}
+
+header ul li{
+    flex: 0 0 7%;
+    margin-left: 1em;
+    padding: .5em;
+}
+
+section{
+display: flex;
+
+
+}
+
+/* Body around Articles and Sections */
+.container{
+  width: 92%;
+
+}
+
+/* Group of ARTICLEs 1-6 */
+section main{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  height: 100%;
+  width: 80%;
+  justify-content: space-around;
+  align-items:center;
+}
+.posts {
+        /* DO NOT CHANGE THESE */
+        color: #444444;
+      }
+
+      /* Indiviudal ARTICLEs 1-6 */
+section main article{
+  flex: 0 0 45%;
+  margin: 2%;
+  width: 70%
+}
+.posts article {
+
+          /* DO NOT CHANGE THESE */
+          background-color: #dddddd;
+          border: 1px solid #444444;
+          height: 10em; /* this is just so we can see the articles since they have no content */
+      }
+
+/* SIDEBAR GROUP 1-3 */
+aside{
+  display: flex;
+  flex-direction: column;
+  flex: 0 0 25%;
+  height: 100%;
+  padding-left: 1em;
+  padding-right: 1em;
+}
+.sidebar {
+
+          /* DO NOT CHANGE THESE */
+          background-color: #aaaaaa;
+          color: #444444;
+}
+.sidebar section {
+    /* DO NOT CHANGE THESE */
+    background-color: #dddddd;
+    border: 1px solid #444444;
+    height: 10em; /* this is just so we can see the articles since they have no content */
+    margin-top: 1em;
+}
+
+/* Indiviudal Sidebars 1-3 */
+aside section{
+  margin-bottom: 1em;
+
+}
+
+
+
+
+
+
+footer{
+  border: 1px solid rgb(0, 0, 255);
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  border-radius: 0 0 1em 1em;
+}
+footer nav{
+  width: 50%;
+}
+
+p{
+  width: 50%;
+  font-size: 80%;
+}
